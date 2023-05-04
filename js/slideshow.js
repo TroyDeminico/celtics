@@ -26,10 +26,6 @@ function showImage() {
 
 }
 
-window.onload = function() {
-    currentYear();
-  //  showImage(intIndex)
-}
 
 setInterval(() => {
     showImage();

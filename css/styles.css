@@ -110,9 +110,7 @@ footer p {
     font-size: 130%;
 }
 
-#showNavigation {
-    display: none;
-}
+
 
 #hamburger-icon:hover, #x-icon:hover {
     cursor: pointer;
