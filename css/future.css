@@ -1,0 +1,47 @@
+main p {
+    padding-bottom: 2vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin: 0 5vh ;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.423);
+    font-size: 125%;
+    align-items: center; 
+    color: white;
+    text-shadow: none;
+  }
+
+  .videowrapper {
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 270px;
+    height: 0;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+      padding: 0px 4px;
+    }
+    header {
+      flex-direction: column;
+    }
+    header h2 {
+      font-size: 150%;
+    }
+
+    main p {
+      position: relative;
+    }
+    .videowrapper {
+      padding-top: 0;
+      padding-bottom: 70%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .videowrapper {
+      padding-bottom: 100%;
+    }
+  }

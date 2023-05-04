@@ -5,22 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boston Celtics</title>
+    <link rel="shortcut icon" href="responsivesite-images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
     <header>
-        <h1>Boston Celtics</h1>
-        <h2>Under Construction</h2>
+        <a href="index.html"><img src="images/logo.png" alt="Click here to return to homepage" title="Click here to return to homepage"></a>
+        <h2>The Boston Celtics</h2>
+        <button id="showNavigation" data-visible="false"></button>
+        <!-- <i onclick="showMenu()" id="hamburger-icon" class="fa-solid fa-bars"></i>
+        <i onclick="hideMenu()" id="x-icon" class="fa-solid fa-xmark"></i> -->
+        <nav id="navigation" data-visible="false">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="imagegalleryindex.html">Iconic Players</a></li>
+                <li><a href="futureindex.html">The Future</a></li>
+                <li><a href="slideshowindex.html">NBA Finals</a></li>
+                <li><a href="historyindex.html">Team History</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>I plan to make a webpage on the Boston Celtics. The home page will have current information on the team. I'll have other pages such as legendary players, team history, and future plans.</p>
+        <aside>Learn all about the Boston Celtics on this interactive site. From the Celtics rich history, to their bright future this website has it all. If you are interested in the Celtics this is the right place. Take a look at images of iconic players such as Bill Russell, Kevin Garnett, Larry Bird, Jayson Tatum and more!
+        </aside>
+        <section>Head over to the History section to learn about all the succsess the Boston Celtics organization has gone through. Or check out the Futures section to learn about the up and coming stars on the Celtics now. Go check out the finals the Celtics have won in the NBA Finals section (theres a whole lot of them). </section>
     </main>
-
-
-
-
     <footer>
-        Troy DeMinico
+        <p>&copy; <span id="copyright"></span> Troy DeMinico</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

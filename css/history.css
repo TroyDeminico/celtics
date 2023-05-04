@@ -1,0 +1,12 @@
+header h2 {
+    color: green;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white;
+}
+
+
+main p {
+    background-color: rgba(0, 0, 0, 0.488);
+    padding: 2vh;
+    color: white;
+    text-shadow: none;
+}
